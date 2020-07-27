@@ -36,7 +36,7 @@ class _MyHomePageState extends State<MyHomePage> {
         title: Text(widget.title),
       ),
       body: Center(
-        child: Text('You have pushed the button this many times:'),
+        child: Text('Hello World!'),
       ),
     );
   }
