@@ -1,4 +1,3 @@
-import 'package:chat60d/widgets/chat_app_bar.dart';
 import 'package:chat60d/widgets/input_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
