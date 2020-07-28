@@ -1,12 +1,12 @@
 import 'package:chat60d/pages/conversation_page.dart';
 import 'package:flutter/material.dart';
 
-class ConverationPageList extends StatefulWidget {
+class ConversationPageList extends StatefulWidget {
   @override
-  _ConverationPageListState createState() => _ConverationPageListState();
+  _ConversationPageListState createState() => _ConversationPageListState();
 }
 
-class _ConverationPageListState extends State<ConverationPageList> {
+class _ConversationPageListState extends State<ConversationPageList> {
   @override
   Widget build(BuildContext context) {
     return PageView(

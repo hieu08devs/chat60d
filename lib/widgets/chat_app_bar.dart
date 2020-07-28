@@ -35,7 +35,10 @@ class ChatAppBar extends StatelessWidget implements PreferredSizeWidget {
                           children: [
                             Expanded(
                               flex: 1,
-                              child: Icon(Icons.attach_file),
+                              child: IconButton(
+                                icon: Icon(Icons.attach_file),
+                                onPressed: () {},
+                              ),
                             ),
                             Expanded(
                               flex: 3,
